@@ -3,6 +3,12 @@
 #include <limits>
 using namespace std;
 
+
+/// <summary>
+/// Calculates the factorial of a number.
+/// </summary>
+/// <param name="n"> The user inputted number. </param>
+/// <returns> An integer containing the factorial of n. </returns>
 unsigned long long int factorial(int n) {
     int result;
     if (n == 1 || n == 0) {
